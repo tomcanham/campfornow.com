@@ -1,0 +1,19 @@
+@import "bootstrap-and-overrides";
+
+.right-nav {
+}
+
+.right-nav-item {
+  .title {
+  }
+
+  .subtitle {
+    font-size: 80%;
+    font-style: italic;
+  }
+
+  .comment-count {
+    @extend .badge;
+    @extend .hidden-xs;
+  }
+}

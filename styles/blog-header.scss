@@ -1,0 +1,27 @@
+@import "bootstrap-and-overrides";
+
+.blog-header {
+  background-color: $theme_black;
+  color: invert($theme_black);
+  text-align: center;
+  margin-top: -20px;
+  padding-bottom: .1em;
+}
+
+.header-title {
+  font-size: 50em;
+}
+
+.header-subtitle {
+  font-size: 1em;
+}
+
+.blog-header {
+  background-image: url('/assets/img/camp_fornow_night1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog-body {
+  padding-top: 1em;
+}

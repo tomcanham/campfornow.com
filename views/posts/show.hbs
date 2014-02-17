@@ -1,0 +1,18 @@
+{{!< post}}
+{{setPageType 'post-page'}}
+{{#contentFor 'headerText'}}
+  <div class="header-title"><h1>{{post.title}}</h1></div>
+  <div class="header-subtitle"><h2>{{post.subtitle}}</h2></div>
+{{/contentFor}}
+
+<div class="post-content">
+  {{post.content}}
+</div>
+
+<p class="link">
+  <a href="{{post.link}}">(link)</a>
+</p>
+
+<p class="permalink">
+  <a href="{{post.permalink}}">(permalink)</a>
+</p>

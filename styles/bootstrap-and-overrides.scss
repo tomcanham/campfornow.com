@@ -1,0 +1,35 @@
+$cfn_midnightblue: #5b65b6;
+$cfn_blueblack: #1a1c25;
+$cfn_indigo: #21273a;
+$cfn_pumpkin: #c6620c;
+$cfn_brickred: #5c2b26;
+$cfn_white: #dfdfff;
+
+$body_color: lighten($cfn_midnightblue, 40%);
+$light_body_color: lighten($body_color, 5%);
+$dark_body_color: darken($body_color, 5%);
+$font_color: $cfn_indigo;
+$light_font_color: lighten($font_color, 40%);
+$theme_white: #fff;
+$theme_black: $cfn_blueblack;
+$alt_color: $cfn_pumpkin;
+$selection_color: darken($body_color, 5%);
+$link_color: $cfn_brickred;
+$light_link_color: lighten($link_color, 20%);
+$alt_link_color: $light_link_color;
+
+$body-bg: $dark_body_color;
+$navbar-default-link-color: lighten($theme_black, 40%);
+$navbar-default-link-hover-color: lighten($navbar-default-link-color, 10%);
+$navbar-default-link-active-color: lighten($theme_black, 60%);
+$navbar-default-bg: $theme_black;
+$navbar-default-link-active-bg: lighten($navbar-default-bg, 5%);
+$navbar-inverse-color: lighten($navbar-default-bg, 50%);
+$dropdown-bg: lighten($navbar-default-bg, 50%);
+$input-bg: $dark_body_color;
+
+@import "bootstrap";
+@import "bootstrap/theme";
+
+/* fixes a bug in this class */
+.center-block {float: none !important} 

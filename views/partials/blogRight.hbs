@@ -1,0 +1,11 @@
+<div class="right-nav">
+  {{#each req.latest}}
+  <a href="{{link}}" class="right-nav-item">
+    {{#if commentsCount}}
+    <span title="{{commentsCount}} comments" class="comment-count">{{commentsCount}}</span>
+    {{/if}}
+    <h5 class="title">{{title}}</h5>
+    <p class="subtitle">{{subtitle}}</p>
+  </a>
+  {{/each}}
+</div>

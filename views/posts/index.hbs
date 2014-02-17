@@ -1,0 +1,11 @@
+{{!< post}}
+{{setPageType 'post-list-page'}}
+{{#contentFor 'headerText'}}
+  <h1>Welcome to Camp ForNow</h1>
+  <h2>{{{randomString 'postsIndexSubcation'}}}</h2>
+{{/contentFor}}
+{{#each posts}}
+  <p>{{this}}</p>
+{{else}}
+  <p class="empty">No content</p>
+{{/each}}
