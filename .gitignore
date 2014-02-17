@@ -1,3 +1,4 @@
 .DS_Store
 .sass-cache
 init_dev.sh
+node_modules/
